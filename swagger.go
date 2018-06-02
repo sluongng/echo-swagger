@@ -132,6 +132,7 @@ window.onload = function() {
     url: "{{.Host}}",
     dom_id: '#swagger-ui',
     validatorUrl: null,
+	docExpansion: 'none',
     presets: [
       SwaggerUIBundle.presets.apis,
       SwaggerUIStandalonePreset
